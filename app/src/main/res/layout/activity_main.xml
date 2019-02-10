@@ -138,6 +138,15 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/buttonAdd"
             app:layout_constraintStart_toEndOf="@+id/buttonAdd" android:layout_marginStart="8dp"
             android:textSize="12sp"/>
+    <Button
+            android:text="c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonClear"
+            android:minWidth="48dp"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/buttonSubtract"
+            app:layout_constraintStart_toEndOf="@+id/buttonSubtract" android:layout_marginStart="8dp"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
